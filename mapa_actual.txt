@@ -1,0 +1,221 @@
+### Page
+- Page URL: https://creanovatech.com/
+- Page Title: Home -
+### Snapshot
+```yaml
+- generic [active] [ref=e1]:
+  - link "Ir al contenido" [ref=e2] [cursor=pointer]:
+    - /url: "#content"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - generic [ref=e12]:
+            - link "Creanovatech, Desarrolladora de software" [ref=e14] [cursor=pointer]:
+              - /url: https://creanovatech.com/
+              - img "Creanovatech, Desarrolladora de software" [ref=e15]
+            - generic:
+              - generic:
+                - link:
+                  - /url: https://creanovatech.com/
+          - navigation "Navegación del sitio principal" [ref=e19]:
+            - list [ref=e21]:
+              - listitem [ref=e22]:
+                - link "Inicio" [ref=e23] [cursor=pointer]:
+                  - /url: https://creanovatech.com/
+              - listitem [ref=e24]:
+                - link "Acerca de" [ref=e25] [cursor=pointer]:
+                  - /url: https://creanovatech.com/about/
+              - listitem [ref=e26]:
+                - link "Servicios" [ref=e27] [cursor=pointer]:
+                  - /url: https://creanovatech.com/offerings/
+              - listitem [ref=e28]:
+                - link "Blog" [ref=e29] [cursor=pointer]:
+                  - /url: https://creanovatech.com/blog/
+              - listitem [ref=e30]:
+                - link "Contacto" [ref=e31] [cursor=pointer]:
+                  - /url: https://creanovatech.com/contact/
+        - button "Comienza ahora" [ref=e35] [cursor=pointer]:
+          - generic [ref=e36]: Comienza ahora
+    - main [ref=e40]:
+      - article [ref=e41]:
+        - generic [ref=e42]:
+          - generic [ref=e44]:
+            - generic [ref=e47]:
+              - heading "Transformamos tus ideas en realidad" [level=1] [ref=e49]
+              - paragraph [ref=e50]: En CreaNovaTech, tu creatividad se encuentra con nuestra experiencia. Desarrollamos soluciones innovadoras que se adaptan a tus necesidades específicas.
+              - link "Comienza ahora" [ref=e52] [cursor=pointer]:
+                - /url: contact/
+                - generic [ref=e53]: Comienza ahora
+            - figure [ref=e56]:
+              - img "slidebean-J3AV8F-B42M-unsplash" [ref=e57]
+          - generic [ref=e59]:
+            - generic [ref=e60]:
+              - heading "Nuestras soluciones innovadoras" [level=2] [ref=e62]
+              - paragraph [ref=e64]: Ofrecemos una variedad de servicios a medida para transformar tus ideas en productos. Explora nuestras principales ofertas y descubre cómo podemos ayudarte.
+            - generic [ref=e68]:
+              - generic [ref=e70]:
+                - heading "Consultoría Técnica" [level=3] [ref=e72]
+                - paragraph [ref=e73]: Consultoría estratégica para optimizar tus procesos y maximizar el potencial de tus proyectos tecnológicos de manera efectiva.
+                - link "Aprender Más" [ref=e75] [cursor=pointer]:
+                  - /url: offering/
+                  - generic [ref=e76]: Aprender Más
+              - generic [ref=e78]:
+                - heading "Soporte Continuo" [level=3] [ref=e80]
+                - paragraph [ref=e81]: Integración de sistemas que conecta diferentes plataformas y herramientas, mejorando la eficiencia y la comunicación de tu empresa.
+                - link "Aprender Más" [ref=e83] [cursor=pointer]:
+                  - /url: offering/
+                  - generic [ref=e84]: Aprender Más
+              - generic [ref=e86]:
+                - heading "Desarrollo de Software" [level=3] [ref=e88]
+                - paragraph [ref=e89]: IDesarrollo de software personalizado que se adapta a tus requisitos específicos y dinámicos, facilitando la evolución de tu negocio..
+                - link "Aprender Más" [ref=e91] [cursor=pointer]:
+                  - /url: offering/
+                  - generic [ref=e92]: Aprender Más
+            - generic [ref=e93]:
+              - heading "¿Listo para hacer crecer tu negocio ahora?" [level=4] [ref=e95]
+              - button "Comienza ahora" [ref=e100] [cursor=pointer]:
+                - generic [ref=e101]: Comienza ahora
+          - generic [ref=e103]:
+            - generic [ref=e104]:
+              - figure [ref=e106]:
+                - img "sable-flow-_ZojfXxQ0vw-unsplash" [ref=e107]
+              - figure [ref=e109]:
+                - img "Conocenos" [ref=e110]
+            - generic [ref=e114]:
+              - heading "Conoce a CreaNovaTech" [level=3] [ref=e116]
+              - paragraph [ref=e117]: CreaNovaTech es una innovadora plataforma SaaS que busca transformar ideas en realidades digitales. Nos especializamos en el desarrollo de soluciones tecnológicas personalizadas que se adaptan a las necesidades de nuestros clientes. Con un enfoque centrado en el usuario, ofrecemos productos intuitivos y eficientes para todo tipo de industrias. Nuestra visión es facilitar el proceso creativo, permitiendo que los emprendedores brillen con sus ideas.
+              - link "Leer Más" [ref=e119] [cursor=pointer]:
+                - /url: about/
+                - generic [ref=e120]: Leer Más
+          - generic [ref=e122]:
+            - figure [ref=e125]:
+              - img "Enfoque creanovatech" [ref=e126]
+            - generic [ref=e127]:
+              - generic [ref=e128]:
+                - heading "Nuestra propuesta de valor" [level=2] [ref=e129]
+                - paragraph [ref=e130]: En Crea Nova Tech, nos destacamos por ofrecer soluciones personalizadas que realmente marcan la diferencia.
+              - generic [ref=e132]:
+                - heading "Enfoque personalizado" [level=3] [ref=e133]
+                - paragraph [ref=e134]: Nos adaptamos a tus necesidades específicas, ofreciendo soluciones únicas que reflejan tu visión y objetivos de negocio en cada paso del proceso.
+              - generic [ref=e135]:
+                - heading "Compromiso con la calidad" [level=3] [ref=e136]
+                - paragraph [ref=e137]: Garantizamos un desarrollo de alta calidad, utilizando las mejores prácticas y herramientas para asegurarnos de que cada proyecto cumple con los estándares más exigentes.
+          - generic [ref=e139]:
+            - generic [ref=e140]:
+              - heading "Conoce a nuestro equipo" [level=2] [ref=e142]:
+                - strong [ref=e143]: Conoce a nuestro equipo
+              - paragraph [ref=e145]: En CreaNovaTech, nuestro éxito se debe al talento y dedicación de nuestro equipo. Cada miembro aporta su experiencia y pasión para transformar ideas en soluciones innovadoras.
+            - generic [ref=e157]:
+              - generic [ref=e159]:
+                - group "3 / 3" [ref=e160]:
+                  - generic [ref=e165]:
+                    - heading "Programador profesional Daniel Mercado" [level=3] [ref=e167]:
+                      - img "Programador profesional" [ref=e168]
+                      - text: Daniel Mercado
+                    - paragraph [ref=e169]:
+                      - text: Especialista en soporte técnico con más de 5 años de experiencia en atención al
+                      - text: cliente, resolución de problemas técnicos y gestión de equipos en hotelería y tecnología. Formación en
+                      - text: computación e informática, con certificaciones en Java, Spring Boot y análisis de datos. Orientado a la
+                      - text: satisfacción del cliente y la mejora continua.
+                      - link [ref=e170] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/in/dmercadom/
+                - group "1 / 3" [ref=e171]:
+                  - generic [ref=e175]:
+                    - heading "Programador profesional Fernando Martínez" [level=3] [ref=e177]:
+                      - img "Programador profesional" [ref=e178]
+                      - text: Fernando Martínez
+                    - paragraph [ref=e179]:
+                      - text: Ingeniero de sistemas con experiencia en Node.js, NestJS, React, Angular, Firebase entre
+                      - text: otros. Ha colaborado en grandes proyectos para empresas como Aviatur, ViajesTuPlus, EDP, ECAM y Mobile Media
+                      - text: Content. Con certificaciones en React+Redux, diseño de videojuegos entre otros, busca desarrollar herramientas
+                      - text: empresariales y, a futuro, crear su propio videojuego.
+                      - link "￼" [ref=e180] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/in/fernando-martinez-b16b47b9/
+                - group "2 / 3" [ref=e181]:
+                  - generic [ref=e185]:
+                    - heading "Programador profesional Ligia Villarroel" [level=3] [ref=e187]:
+                      - img "Programador profesional" [ref=e188]
+                      - text: Ligia Villarroel
+                    - paragraph [ref=e189]:
+                      - text: Ingeniera de sistemas con amplia experiencia en implementación de ERP, gestión de
+                      - text: proyectos, análisis de sistemas y mejora continua. Ha liderado equipos en sectores como telecomunicaciones,
+                      - text: TI y seguros, destacándose en optimización de procesos, diseño funcional, validación de sistemas y uso de
+                      - text: herramientas como Power BI, SQL Server y Bizagi.
+                      - link [ref=e190] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/in/ligiavilla19/
+                - group "3 / 3" [ref=e191]:
+                  - generic [ref=e196]:
+                    - heading "Programador profesional Daniel Mercado" [level=3] [ref=e198]:
+                      - img "Programador profesional" [ref=e199]
+                      - text: Daniel Mercado
+                    - paragraph [ref=e200]:
+                      - text: Especialista en soporte técnico con más de 5 años de experiencia en atención al
+                      - text: cliente, resolución de problemas técnicos y gestión de equipos en hotelería y tecnología. Formación en
+                      - text: computación e informática, con certificaciones en Java, Spring Boot y análisis de datos. Orientado a la
+                      - text: satisfacción del cliente y la mejora continua.
+                      - link [ref=e201] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/in/dmercadom/
+                - group "1 / 3" [ref=e202]:
+                  - generic [ref=e206]:
+                    - heading "Programador profesional Fernando Martínez" [level=3] [ref=e208]:
+                      - img "Programador profesional" [ref=e209]
+                      - text: Fernando Martínez
+                    - paragraph [ref=e210]:
+                      - text: Ingeniero de sistemas con experiencia en Node.js, NestJS, React, Angular, Firebase entre
+                      - text: otros. Ha colaborado en grandes proyectos para empresas como Aviatur, ViajesTuPlus, EDP, ECAM y Mobile Media
+                      - text: Content. Con certificaciones en React+Redux, diseño de videojuegos entre otros, busca desarrollar herramientas
+                      - text: empresariales y, a futuro, crear su propio videojuego.
+                      - link "￼" [ref=e211] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/in/fernando-martinez-b16b47b9/
+              - generic [ref=e212]:
+                - button "Go to slide 1" [ref=e213] [cursor=pointer]
+                - button "Go to slide 2" [ref=e214] [cursor=pointer]
+                - button "Go to slide 3" [ref=e215] [cursor=pointer]
+              - button "Previous slide" [ref=e216] [cursor=pointer]: prev
+              - button "Next slide" [ref=e217] [cursor=pointer]: next
+          - generic [ref=e223]:
+            - heading "Optimiza tu proyecto con nosotros" [level=2] [ref=e225]
+            - paragraph [ref=e226]: No esperes más para dar vida a tus ideas. Contacta con nosotros hoy mismo y descubre cómo podemos ayudarte a alcanzar tus metas.
+            - link "Comienza ahora" [ref=e228] [cursor=pointer]:
+              - /url: /contact/
+              - generic [ref=e229]: Comienza ahora
+    - contentinfo [ref=e230]:
+      - generic [ref=e233]:
+        - 'navigation "Navegación del sitio: Main menu" [ref=e237]':
+          - list [ref=e239]:
+            - listitem [ref=e240]:
+              - link "Inicio" [ref=e241] [cursor=pointer]:
+                - /url: https://creanovatech.com/
+            - listitem [ref=e242]:
+              - link "Acerca de" [ref=e243] [cursor=pointer]:
+                - /url: https://creanovatech.com/about/
+            - listitem [ref=e244]:
+              - link "Servicios" [ref=e245] [cursor=pointer]:
+                - /url: https://creanovatech.com/offerings/
+            - listitem [ref=e246]:
+              - link "Blog" [ref=e247] [cursor=pointer]:
+                - /url: https://creanovatech.com/blog/
+            - listitem [ref=e248]:
+              - link "Contacto" [ref=e249] [cursor=pointer]:
+                - /url: https://creanovatech.com/contact/
+        - generic [ref=e253]:
+          - link "Facebook" [ref=e254] [cursor=pointer]:
+            - /url: ""
+            - img [ref=e256]
+          - link "Creanovatech" [ref=e258] [cursor=pointer]:
+            - /url: https://www.instagram.com/creanovatech/
+            - img [ref=e260]
+          - link "Twitter" [ref=e262] [cursor=pointer]:
+            - /url: ""
+            - img [ref=e264]
+          - link "YouTube" [ref=e266] [cursor=pointer]:
+            - /url: https://www.youtube.com/@Creanovatech
+            - img [ref=e268]
+          - link "Linkedin" [ref=e270] [cursor=pointer]:
+            - /url: ""
+            - img [ref=e272]
+        - paragraph [ref=e277]: Derechos de Autor © 2026
+  - button "💬" [ref=e278] [cursor=pointer]:
+    - generic [ref=e279]: 💬
+```

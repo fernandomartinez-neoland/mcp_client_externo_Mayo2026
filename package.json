@@ -1,0 +1,27 @@
+{
+  "name": "mcp_client_externo_mayo2026",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000m\u0000c\u0000p\u0000_\u0000c\u0000l\u0000i\u0000e\u0000n\u0000t\u0000_\u0000e\u0000x\u0000t\u0000e\u0000r\u0000n\u0000o\u0000_\u0000M\u0000a\u0000y\u0000o\u00002\u00000\u00002\u00006\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernandomartinez-neoland/mcp_client_externo_Mayo2026.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/fernandomartinez-neoland/mcp_client_externo_Mayo2026/issues"
+  },
+  "homepage": "https://github.com/fernandomartinez-neoland/mcp_client_externo_Mayo2026#readme",
+  "dependencies": {
+    "@cfworker/json-schema": "^4.1.1",
+    "@modelcontextprotocol/client": "^2.0.0-alpha.2",
+    "dotenv": "^17.4.2",
+    "google-auth-library": "^10.7.0"
+  }
+}
