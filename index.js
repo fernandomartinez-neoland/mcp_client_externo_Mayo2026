@@ -3,6 +3,7 @@ import "dotenv/config";
 import { Ollama } from "ollama";
 import fs from "fs";
 
+
 // ============================================================================
 // 1. CONFIGURACIÓN DEL CEREBRO (OLLAMA)
 // ============================================================================
@@ -13,28 +14,10 @@ const ai = new Ollama({
 
 // Esta función es el "razonamiento" puro. Toma el mapa y decide la siguiente acción.
 async function pensarSiguienteAccion(mapaWeb, objetivo) {
-  const prompt = `
-Eres un agente de automatización web. Tu objetivo es: "${objetivo}".
-Aquí tienes el mapa de accesibilidad actual de la pantalla en formato YAML:
----
-${mapaWeb}
----
-INSTRUCCIONES ESTRICTAS DE RESPUESTA:
-Debes decidir el siguiente paso técnico basándote en los textos visibles de los elementos (enlaces, botones o etiquetas).
-
-Responde ÚNICAMENTE con UNO de estos comandos exactos:
-
-1. Si necesitas hacer clic en algo, responde:
-   CLICK: [texto exacto del elemento en el mapa]
-   (Ejemplo: CLICK: Contacto)
-
-2. Si necesitas escribir en un campo de texto, responde:
-   FILL: [texto del placeholder o etiqueta asociada] | [texto a escribir]
-   (Ejemplo: FILL: Nombre Completo | Alumno Demo)
-
-3. Si el objetivo se cumplió:
-   DONE
-`;
+  const agente=fs.readFileSync('agente.md', 'utf8')
+  console.log("ESTE ES EL AGENTE.MD: ", agente)
+  const prompt = agente.replace('{{OBJETIVO}}', objetivo)
+  .replace('{{MAPA_WEB}}', mapaWeb);
 
   process.stdout.write("🧠 Pensando... ");
   const response = await ai.chat({
